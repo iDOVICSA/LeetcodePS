@@ -5,5 +5,8 @@ public class Main {
         b.next = new MergeTwoSortedLists.ListNode(2);
         b.next.next = new MergeTwoSortedLists.ListNode(4);
         MergeTwoSortedLists.mergeTwoLists(a,b);
+
+
+        String res = ZigzagConversion.convert("PAYPALISHIRING",4);
     }
 }
